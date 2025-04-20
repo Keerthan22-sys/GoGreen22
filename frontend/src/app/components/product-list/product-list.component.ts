@@ -22,7 +22,7 @@ export class ProductListComponent implements OnInit {
 
             for (let product of this.products) {
                 product.imageUrl = product.image ? 'data:image/jpeg;base64,' + product.image :
-                "../../../assets/static/images/product-placeholder.png";
+                "/Users/keerthangowdas/Documents/GitHub/GoGreen22/frontend/src/assets/static/images/product-placeholder.png";
                 
             }
         }, (error: ErrorEvent) => {
